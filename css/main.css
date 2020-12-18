@@ -1,0 +1,229 @@
+/* сброс стилей браузера */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+vertical-align: baseline;
+color: rgb(255, 255, 255);
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1.2;
+}
+ol {
+padding-left: 1.4em;
+list-style: decimal;
+}
+ul {
+padding-left: 1.4em;
+list-style: square;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+
+@font-face {
+font-family: "AsapBoldItalic"; 
+src: url("../media/Шрифты/Asap/Asap-BoldItalic.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 
+
+@font-face {
+font-family: "OleoScript"; 
+src: url("../media/Шрифты/Oleo_Script/OleoScript-Bold.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+}
+
+
+ @import url(https://allfont.ru/allfont.css?fonts=lobster);
+
+h1{
+	padding: 20px 20px 30px 20px;
+	font-size: 40px;
+	font-family: "Oleo_Script", arial;
+}
+h4, h2{
+	
+	font-family: 'Lobster', arial;
+}
+header{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+h4:hover{
+	color: gray;
+}
+.NavD h4{
+	border-right: 1px solid rgb(255, 255, 255) height: 5px;
+	float: left;
+	font-size: 15px;
+	padding: 30px 30px 30px 20px;
+}
+.social{
+	position: absolute;
+	top: 5px;
+	right: 275px;
+}
+html {
+background-color:rgb(0,20,40); 
+
+
+}
+.im{
+	background-image: url(../media/header-background.png);
+}
+
+/*Блок2*/
+.row{
+	display: flex;
+	flex-wrap: nowrap;
+	margin: 0;
+	justify-content: center;
+}
+div.greeting{
+	padding-top: 30px;
+	padding-left: 420px; 
+	text-align: center;
+	padding-right: 420px;
+	font-size: 30px;
+	padding-bottom: 30px;
+}
+/*Блок3*/
+
+.two{
+	position: absolute;
+	background-image: url(../media/wrapper1-background.png);
+	top: 1000px;
+	right: 275px;
+}
+	
+}
+}
+
+footer{
+	display: flex;
+}
+.NavDD{
+	float: left;
+}
+.tree{
+	display: flex;
+	flex-direction: row;
+	align-items: center
+	justify-content: center;
+	padding-top: 20px ; 
+	padding-bottom: 70px;
+	padding-left: 300px;
+	padding-right: 300px;
+}
+.tree{
+	display: flex;
+	flex-direction: row;
+	align-items: center
+	background-image: url(../media/wrapper1-background.png);
+	justify-content: center;
+	padding-top: 20px ; 
+	padding-bottom: 70px;
+	padding-left: 300px;
+	padding-right: 300px;
+}
+
+
+.greeting1{
+	flex-direction: row;
+	justify-content: center;
+	padding-top: 50px;
+	padding-left: 50px; 
+	text-align: center;
+	padding-right: 20px;
+	font-size: 18px;
+	padding-bottom: 10px;
+}
+.footer {
+display: flex;
+align-items: center;
+background-image: url(../media/header-background.png);
+background-repeat: repeat-x;
+font-family: 'Roboto', sans-serif;
+height: 120px;
+width: auto;
+color: white;
+}
+.footer p {
+padding-left: 240px;
+}
+.footer-ul li{
+display: inline;
+position: relative;
+left: 850px;
+}
+
+.news-table td {
+width: 340px;
+padding: 50px;
+}
+.border-right {
+border-right: 1px dashed lightgray;
+}
+.table-ul li{
+display: flex;
+align-items: center;
+padding: 10px;
+}
+.font {
+font-family: 'Roboto', sans-serif;
+}
+li img {
+padding-right: 20px;
+}
+.strel {
+width: 30px;
+height: 30px;
+}
+
+.descrip {
+display: flex;
+justify-content: center;
+color: white;
+
+background-color: rgb(0,20,40);
+padding: 10px;
+}
+.descrip table {
+padding: 20px;
+
+}
+.table-row {
+
+font-size: 1.5em;
+}
+.table-row-2 {
+font-size: 0.7em;
+}
+td {
+padding-right: 30px;
+}
+.news {
+display: flex;
+background-color: rgb(0,20,40);
+color: white;
+justify-content: center;
+}
+.news td {
+width: 240px;
+}
+.date {
+font-family: 'Droid_Sans', sans-serif;
+color: rgb(0,169,245);
+}
